@@ -34,7 +34,7 @@ Model–view–presenter (MVP) is a derivation of the model–view–controller 
 
 ### Descripe the Splash Activity behavior.
 <p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/misc-31544.appspot.com/o/UserProfileVirewe%20phase%201%2Fsplash%20design.png?alt=media&token=36700694-780f-46ad-ab76-52d77875d6a2" width="250">
+  <img src="https://firebasestorage.googleapis.com/v0/b/misc-31544.appspot.com/o/UserProfileVirewe%20phase%201%2Fsplash%20design.png?alt=media&token=36700694-780f-46ad-ab76-52d77875d6a2" width="400">
 </p>
 
 ### Library reference resources:
@@ -44,8 +44,8 @@ Model–view–presenter (MVP) is a derivation of the model–view–controller 
 4. Dagger2 dependency injection: https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe
 
 ### Concept reference resources:
-1. [MVP - mindorks] (https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
-2. [Dagger2] (https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe)
+1. [MVP - mindorks](https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
+2. [Dagger2](https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe)
 3. [Android developer](https://developer.android.com/index.html)
 
 ### aomari open source projects
