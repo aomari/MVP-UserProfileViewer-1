@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    tools:context="com.amjadomari.mvpuserprofile.ui.main.MainActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/image_border"
+        app:civ_shadow_radius="10" />
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="@string/logout"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        card_view:cardBackgroundColor="#88ffffff"
+        card_view:cardCornerRadius="7dp"
+        card_view:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_person_black_24px"
+                android:text="@string/user_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_dob"
+                style="@style/TextStyle.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_dob_black_24px"
+                android:text="@string/dob"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                style="@style/TextStyle.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autoLink="phone"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_phone_black_24px"
+                android:text="@string/phone"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                style="@style/TextStyle.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autoLink="email"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_email_black_24px"
+                android:text="@string/email"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/tv_website"
+                style="@style/TextStyle.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="16dp"
+                android:autoLink="web"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_website_black_24px"
+                android:text="@string/website"
+                android:textAllCaps="true"
+                android:textColor="@color/link" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
